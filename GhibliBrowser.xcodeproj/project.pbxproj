@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEB156A72C545371004D36DD /* GhibliBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156A62C545371004D36DD /* GhibliBrowserApp.swift */; };
+		FEB156A92C545371004D36DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156A82C545371004D36DD /* ContentView.swift */; };
+		FEB156AB2C545372004D36DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB156AA2C545372004D36DD /* Assets.xcassets */; };
+		FEB156AE2C545372004D36DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB156AD2C545372004D36DD /* Preview Assets.xcassets */; };
+		FEB156B82C545372004D36DD /* GhibliBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156B72C545372004D36DD /* GhibliBrowserTests.swift */; };
+		FEB156C22C545372004D36DD /* GhibliBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156C12C545372004D36DD /* GhibliBrowserUITests.swift */; };
+		FEB156C42C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156C32C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEB156B42C545372004D36DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB1569B2C545371004D36DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB156A22C545371004D36DD;
+			remoteInfo = GhibliBrowser;
+		};
+		FEB156BE2C545372004D36DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB1569B2C545371004D36DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB156A22C545371004D36DD;
+			remoteInfo = GhibliBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEB156A32C545371004D36DD /* GhibliBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhibliBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB156A62C545371004D36DD /* GhibliBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliBrowserApp.swift; sourceTree = "<group>"; };
+		FEB156A82C545371004D36DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEB156AA2C545372004D36DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEB156AD2C545372004D36DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEB156B32C545372004D36DD /* GhibliBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhibliBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB156B72C545372004D36DD /* GhibliBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliBrowserTests.swift; sourceTree = "<group>"; };
+		FEB156BD2C545372004D36DD /* GhibliBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhibliBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB156C12C545372004D36DD /* GhibliBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliBrowserUITests.swift; sourceTree = "<group>"; };
+		FEB156C32C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB156A02C545371004D36DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB156B02C545372004D36DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB156BA2C545372004D36DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB1569A2C545371004D36DD = {
+			isa = PBXGroup;
+			children = (
+				FEB156A52C545371004D36DD /* GhibliBrowser */,
+				FEB156B62C545372004D36DD /* GhibliBrowserTests */,
+				FEB156C02C545372004D36DD /* GhibliBrowserUITests */,
+				FEB156A42C545371004D36DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB156A42C545371004D36DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB156A32C545371004D36DD /* GhibliBrowser.app */,
+				FEB156B32C545372004D36DD /* GhibliBrowserTests.xctest */,
+				FEB156BD2C545372004D36DD /* GhibliBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB156A52C545371004D36DD /* GhibliBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FEB156A62C545371004D36DD /* GhibliBrowserApp.swift */,
+				FEB156A82C545371004D36DD /* ContentView.swift */,
+				FEB156AA2C545372004D36DD /* Assets.xcassets */,
+				FEB156AC2C545372004D36DD /* Preview Content */,
+			);
+			path = GhibliBrowser;
+			sourceTree = "<group>";
+		};
+		FEB156AC2C545372004D36DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEB156AD2C545372004D36DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEB156B62C545372004D36DD /* GhibliBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB156B72C545372004D36DD /* GhibliBrowserTests.swift */,
+			);
+			path = GhibliBrowserTests;
+			sourceTree = "<group>";
+		};
+		FEB156C02C545372004D36DD /* GhibliBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB156C12C545372004D36DD /* GhibliBrowserUITests.swift */,
+				FEB156C32C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift */,
+			);
+			path = GhibliBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB156A22C545371004D36DD /* GhibliBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB156C72C545372004D36DD /* Build configuration list for PBXNativeTarget "GhibliBrowser" */;
+			buildPhases = (
+				FEB1569F2C545371004D36DD /* Sources */,
+				FEB156A02C545371004D36DD /* Frameworks */,
+				FEB156A12C545371004D36DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhibliBrowser;
+			productName = GhibliBrowser;
+			productReference = FEB156A32C545371004D36DD /* GhibliBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEB156B22C545372004D36DD /* GhibliBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB156CA2C545372004D36DD /* Build configuration list for PBXNativeTarget "GhibliBrowserTests" */;
+			buildPhases = (
+				FEB156AF2C545372004D36DD /* Sources */,
+				FEB156B02C545372004D36DD /* Frameworks */,
+				FEB156B12C545372004D36DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB156B52C545372004D36DD /* PBXTargetDependency */,
+			);
+			name = GhibliBrowserTests;
+			productName = GhibliBrowserTests;
+			productReference = FEB156B32C545372004D36DD /* GhibliBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEB156BC2C545372004D36DD /* GhibliBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB156CD2C545372004D36DD /* Build configuration list for PBXNativeTarget "GhibliBrowserUITests" */;
+			buildPhases = (
+				FEB156B92C545372004D36DD /* Sources */,
+				FEB156BA2C545372004D36DD /* Frameworks */,
+				FEB156BB2C545372004D36DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB156BF2C545372004D36DD /* PBXTargetDependency */,
+			);
+			name = GhibliBrowserUITests;
+			productName = GhibliBrowserUITests;
+			productReference = FEB156BD2C545372004D36DD /* GhibliBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB1569B2C545371004D36DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FEB156A22C545371004D36DD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FEB156B22C545372004D36DD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FEB156A22C545371004D36DD;
+					};
+					FEB156BC2C545372004D36DD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FEB156A22C545371004D36DD;
+					};
+				};
+			};
+			buildConfigurationList = FEB1569E2C545371004D36DD /* Build configuration list for PBXProject "GhibliBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB1569A2C545371004D36DD;
+			productRefGroup = FEB156A42C545371004D36DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB156A22C545371004D36DD /* GhibliBrowser */,
+				FEB156B22C545372004D36DD /* GhibliBrowserTests */,
+				FEB156BC2C545372004D36DD /* GhibliBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB156A12C545371004D36DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB156AE2C545372004D36DD /* Preview Assets.xcassets in Resources */,
+				FEB156AB2C545372004D36DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB156B12C545372004D36DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB156BB2C545372004D36DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB1569F2C545371004D36DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB156A92C545371004D36DD /* ContentView.swift in Sources */,
+				FEB156A72C545371004D36DD /* GhibliBrowserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB156AF2C545372004D36DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB156B82C545372004D36DD /* GhibliBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB156B92C545372004D36DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB156C42C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift in Sources */,
+				FEB156C22C545372004D36DD /* GhibliBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEB156B52C545372004D36DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB156A22C545371004D36DD /* GhibliBrowser */;
+			targetProxy = FEB156B42C545372004D36DD /* PBXContainerItemProxy */;
+		};
+		FEB156BF2C545372004D36DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB156A22C545371004D36DD /* GhibliBrowser */;
+			targetProxy = FEB156BE2C545372004D36DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEB156C52C545372004D36DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEB156C62C545372004D36DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB156C82C545372004D36DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GhibliBrowser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atlc.GhibliBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB156C92C545372004D36DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GhibliBrowser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atlc.GhibliBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEB156CB2C545372004D36DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atlc.GhibliBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhibliBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GhibliBrowser";
+			};
+			name = Debug;
+		};
+		FEB156CC2C545372004D36DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atlc.GhibliBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhibliBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GhibliBrowser";
+			};
+			name = Release;
+		};
+		FEB156CE2C545372004D36DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atlc.GhibliBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GhibliBrowser;
+			};
+			name = Debug;
+		};
+		FEB156CF2C545372004D36DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atlc.GhibliBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GhibliBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB1569E2C545371004D36DD /* Build configuration list for PBXProject "GhibliBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB156C52C545372004D36DD /* Debug */,
+				FEB156C62C545372004D36DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB156C72C545372004D36DD /* Build configuration list for PBXNativeTarget "GhibliBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB156C82C545372004D36DD /* Debug */,
+				FEB156C92C545372004D36DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB156CA2C545372004D36DD /* Build configuration list for PBXNativeTarget "GhibliBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB156CB2C545372004D36DD /* Debug */,
+				FEB156CC2C545372004D36DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB156CD2C545372004D36DD /* Build configuration list for PBXNativeTarget "GhibliBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB156CE2C545372004D36DD /* Debug */,
+				FEB156CF2C545372004D36DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB1569B2C545371004D36DD /* Project object */;
+}
