@@ -15,11 +15,10 @@
 		FEB156C42C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156C32C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift */; };
 		FEB156D42C5455EA004D36DD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156D32C5455EA004D36DD /* APIService.swift */; };
 		FEB156D62C545A6F004D36DD /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156D52C545A6F004D36DD /* Film.swift */; };
-		FEB156D82C545AEB004D36DD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156D72C545AEB004D36DD /* Location.swift */; };
 		FEB156DB2C545BE5004D36DD /* FilmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156DA2C545BE5004D36DD /* FilmsViewModel.swift */; };
-		FEB156DD2C545D8B004D36DD /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156DC2C545D8B004D36DD /* LocationsViewModel.swift */; };
 		FEB156E02C546081004D36DD /* FilmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156DF2C546081004D36DD /* FilmsView.swift */; };
 		FEB156E22C5472AE004D36DD /* FilmDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156E12C5472AE004D36DD /* FilmDetailsView.swift */; };
+		FEB156E42C547973004D36DD /* FilmDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB156E32C547973004D36DD /* FilmDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +50,10 @@
 		FEB156C32C545372004D36DD /* GhibliBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FEB156D32C5455EA004D36DD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		FEB156D52C545A6F004D36DD /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
-		FEB156D72C545AEB004D36DD /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FEB156DA2C545BE5004D36DD /* FilmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewModel.swift; sourceTree = "<group>"; };
-		FEB156DC2C545D8B004D36DD /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		FEB156DF2C546081004D36DD /* FilmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsView.swift; sourceTree = "<group>"; };
 		FEB156E12C5472AE004D36DD /* FilmDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailsView.swift; sourceTree = "<group>"; };
+		FEB156E32C547973004D36DD /* FilmDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				FEB156D52C545A6F004D36DD /* Film.swift */,
-				FEB156D72C545AEB004D36DD /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				FEB156DA2C545BE5004D36DD /* FilmsViewModel.swift */,
-				FEB156DC2C545D8B004D36DD /* LocationsViewModel.swift */,
+				FEB156E32C547973004D36DD /* FilmDetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -311,8 +308,7 @@
 				FEB156E22C5472AE004D36DD /* FilmDetailsView.swift in Sources */,
 				FEB156DB2C545BE5004D36DD /* FilmsViewModel.swift in Sources */,
 				FEB156D62C545A6F004D36DD /* Film.swift in Sources */,
-				FEB156DD2C545D8B004D36DD /* LocationsViewModel.swift in Sources */,
-				FEB156D82C545AEB004D36DD /* Location.swift in Sources */,
+				FEB156E42C547973004D36DD /* FilmDetailsViewModel.swift in Sources */,
 				FEB156D42C5455EA004D36DD /* APIService.swift in Sources */,
 				FEB156A72C545371004D36DD /* GhibliBrowserApp.swift in Sources */,
 			);

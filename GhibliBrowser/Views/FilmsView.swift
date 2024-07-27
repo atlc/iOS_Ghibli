@@ -14,7 +14,9 @@ struct FilmsView: View {
     var body: some View {
         NavigationView {
             List(filmModel.films) { film in
-                Text(film.title).bold()
+                NavigationLink(destination: FilmDetailsView(id: film.id)) {
+                    Text(film.title).bold()
+                }
                 VStack {
                     AsyncImage(url: film.movie_banner) { image in
                         image
